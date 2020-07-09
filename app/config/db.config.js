@@ -2,6 +2,7 @@ module.exports = {
   HOST: "localhost",
   USER: "root",
   PASSWORD: "",
-  DB: "retree-toDO"
+  DB: "retree-todo"
 };
 
+// todo: Hi dumb person, change things in this 
