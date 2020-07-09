@@ -1,0 +1,23 @@
+{
+    "name": "re-tree-srilanka-backend",
+    "version": "0.3.0",
+    "description": "todo-list backend",
+    "engines": {
+      "node": "13.11.0"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "mysql": "^2.17.1"
+    },
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "test": "node test.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sajeerAhamed15/retree-todo-backend.git"
+    },
+    "license": "MIT"
+  }
