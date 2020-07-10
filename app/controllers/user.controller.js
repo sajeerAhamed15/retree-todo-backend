@@ -6,11 +6,11 @@ exports.loginCheck = (req, res) => {
     if (err) {
       if (err.kind === "not_found") {
         res.status(404).send({
-          message: `Not found User with name ${req.params.name}.`
+          message: `Not found User with name ${req.params.mobile}.`
         });
       } else {
         res.status(500).send({
-          message: "Error retrieving User with id " + req.params.name
+          message: "Error retrieving User with id " + req.params.mobile
         });
       }
     } else res.send(data);
