@@ -7,7 +7,7 @@ const User = function(user) {
 };
 
 User.loginCheck = (mobile,password, result) => {
-  sql.query(`SELECT * FROM user WHERE mobile = ${mobile} and password = ${password}`, (err, res) => {
+  sql.query(`SELECT * FROM user WHERE phone = '${mobile}' and password = '${password}'`, (err, res) => {
     if (err) {
       console.log("error: ", err);
       result(err, null);
